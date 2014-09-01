@@ -6,6 +6,7 @@ ember_demo
 ## Usage
 
 ```Shell
+bundle install --binstubs
 bower install
 middleman
 ```
