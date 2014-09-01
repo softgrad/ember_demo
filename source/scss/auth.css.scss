@@ -1,0 +1,44 @@
+.auth-form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: inline-block;
+  width: 310px;
+  height: 215px;
+  padding: 20px;
+  background: white;
+  text-align: center;
+  border: 1px solid #b7b6b5;
+  border-radius: 5px;
+  input {
+    border: 1px solid rgba(1, 2, 1, 0.3);
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 15px;
+    height: 16px;
+    width: 270px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  button {
+    background: transparent;
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    border: 1px solid #b7b6b5;
+    cursor: pointer;
+    color: $main-text-color;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 40px;
+    border-radius: 3px;
+  }
+  h1 {
+    font-size: 22px;
+    padding: 16px 0px;
+  }
+}

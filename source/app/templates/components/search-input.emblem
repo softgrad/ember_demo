@@ -1,0 +1,5 @@
+.search
+  .search-input
+    button.clear-field type="button"
+    Ember.TextField placeholder="Search" valueBinding="query"
+    ins.icon.search-icon

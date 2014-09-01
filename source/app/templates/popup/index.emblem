@@ -1,0 +1,4 @@
+.popup
+  .popup-content
+    button{{action 'closeModal'}} class="popup-dismiss"
+    = yield

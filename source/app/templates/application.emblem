@@ -1,0 +1,22 @@
+.wrapper
+  .left-column
+    aside.navigation.sans-serif
+      nav
+        ul.list-unstyled
+          li
+            = link-to 'users' | Users
+          if session.isAuthenticated
+            li
+              = link-to 'questions' | Questions
+            li
+              a{{action 'logout'}} href="#" logout
+          else
+            = link-to 'authentication' | login
+      .clear
+  .right-column
+    .content-wrapper
+      = outlet
+
+= outlet modal
+
+

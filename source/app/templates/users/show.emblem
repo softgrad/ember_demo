@@ -1,0 +1,41 @@
+.content.profile
+  .profile-shell
+    .profile-info
+      .user-photo
+        .photo-shell
+          img src=profile_image alt="Logo" width="120" width="120"
+        .relationship-title.sans-serif Relationship status
+        .relationship-status.sans-serif Single
+
+      .profile-description-wrapper
+        .profile-description
+          .name-wrapper
+            .name
+              = display_name
+              .v
+                ins
+                | Verified account
+
+          .info
+            | Age:
+            = age
+          .from= location
+
+        .about Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, corporis, esse, accusamus voluptatem maxime.
+
+    ul.confirm.list-unstyled
+      li.conf-mail.confirmed
+        ins
+          span
+      li.conf-fb.confirmed
+        ins
+          span
+      li.conf-phone.confirmed
+        ins
+          span
+      li.conf-info
+        .demo.sans-serif
+          small DEMO reaction
+          | Expand recomendations
+        ins
+          span

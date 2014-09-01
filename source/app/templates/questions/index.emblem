@@ -1,0 +1,7 @@
+.content.questions-list
+  ol
+    each
+      li
+        a href=link class='item-questions-list'
+          |[{{tags}}]
+          = title

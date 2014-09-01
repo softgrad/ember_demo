@@ -1,0 +1,7 @@
+.content.login
+  .login-wrraper
+    form
+      input.text-input type="text" value=email placeholder="e-mail"
+      input.text-input type="password" value=password placeholder="password"
+
+      button{{action 'login'}} name="Login" Login

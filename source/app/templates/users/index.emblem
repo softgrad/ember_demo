@@ -1,0 +1,26 @@
+.content.feed
+  each
+    = link-to 'users.show' id class="user-plate"
+      .user-plate-shell
+        .user-photo
+          img src=profile_image alt="Logo" width="120" width="120"
+        .name
+          = display_name
+        .info
+          | Age:
+          = age
+        .from
+          = location
+        .interests
+          .interests-title
+            | Badge Counts
+            ul.list-unstyled
+              li
+                | Gold:
+                = badge_counts.gold
+              li
+                | Silver:
+                = badge_counts.silver
+              li
+                | Bronze:
+                = badge_counts.bronze
